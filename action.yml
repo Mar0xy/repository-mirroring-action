@@ -14,6 +14,9 @@ inputs:
     description: "Username for ssh connection"
     required: false
     default: "git"
+  directory:
+    description: "Directory git is located in"
+    required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
